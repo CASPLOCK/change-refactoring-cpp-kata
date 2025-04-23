@@ -18,26 +18,19 @@ signatures of the class methods or tests.
 You can import this project into [Replit](https://replit.com), and it will
 handle all dependencies automatically.
 
+If using CLion, be sure to download GTest using the instructions below. It will be installed automatically by CMake when you run the tests.
+
 ### Prerequisites
 
 * [CMake 3.19+](https://cmake.org)
 * [Ninja](https://ninja-build.org)
 * [GTest](https://github.com/google/googletest)
 
-### Build
+To install GTest, download the zip from this link and put it in your Downloads folder. You do not need to unzip it:
+https://www.github.com/google/googletest/archive/5376968f6948923e2411081fd9372e71a59d8e77.zip
 
-```console
-make
-```
 
-### Run main
-
-```console
-make run
-```
 
 ### Run tests
 
-```console
-make test
-```
+Run tests using the `All CTest` button at the top of the screen.
